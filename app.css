@@ -65,3 +65,7 @@ td {
 tr:nth-child(even) {
   background-color: #c9c5c546;
 }
+
+tr:nth-child(even):hover {
+  background-color: #ddd;
+}
