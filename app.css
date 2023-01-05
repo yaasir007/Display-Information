@@ -88,3 +88,16 @@ tr:nth-child(even) {
 tr:nth-child(even):hover {
   background-color: #ddd;
 }
+
+@media (max-width: 600px) {
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+}

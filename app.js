@@ -3,5 +3,5 @@ window.onload = () => {
 
   setTimeout(() => {
     transition_el.classList.remove("is-active");
-  }, 100);
+  }, 200);
 }
